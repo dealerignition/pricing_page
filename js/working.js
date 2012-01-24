@@ -26,6 +26,8 @@ $(function() {
     $("#radio input").change( function() { updatePrice(); } );
 
     $("#amount").val( $("#slider-range-min").slider("value")  + " dealers");
+
+    updatePrice();
 });
 
 //$ in cents
@@ -46,6 +48,7 @@ function addCommas(nStr) {
     }
     return x1 + x2;
 }
+
 function updatePrice() {
     var radioButton = $('#radio .ui-state-active').attr('for');
     var dealerNumber = Number($('#slider-range-min').slider('value'));
