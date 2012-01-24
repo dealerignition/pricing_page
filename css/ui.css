@@ -1,0 +1,180 @@
+:focus {
+outline: 0;
+}
+#root {
+  width:940px;
+  margin:0 auto;
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  margin-top:80px;
+  padding:30px;
+}
+.cleaner {
+  clear: both;
+  font-size: 1px;
+}
+#selection {
+  float:left;
+  background:#ffffff;
+  padding:5px;
+}
+#selection td {
+  padding: 10px 0;
+  font-size:12px;
+  width:25%;
+}
+#calculated_pricing {
+  width:180px;
+  float:right;
+  background:#e1e1e1;
+  padding:10px;
+}
+.plan {
+  width:160px;
+  height:240px;
+  vertical-align:top;
+}
+.options {
+  width:160px;
+  vertical-align:top;
+}
+h3 {
+  font-size:20px;
+}
+label ul {
+
+}
+label li {
+  font-size:12px;
+}
+#format { margin-top: 2em; }
+.ui-slider {
+  position: relative;
+  text-align: left; }
+  .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default; }
+  .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: 0.7em;
+    display: block;
+    border: 0;
+    background-position: 0 0; }
+
+.ui-slider-horizontal {
+  height: 0.8em; }
+  .ui-slider-horizontal .ui-slider-handle {
+    top: -0.3em;
+    margin-left: -0.6em; }
+  .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%; }
+  .ui-slider-horizontal .ui-slider-range-min {
+    left: 0; }
+  .ui-slider-horizontal .ui-slider-range-max {
+    right: 0; }
+
+.ui-slider-vertical {
+  width: 0.8em;
+  height: 100px; }
+  .ui-slider-vertical .ui-slider-handle {
+    left: -0.3em;
+    margin-left: 0;
+    margin-bottom: -0.6em; }
+  .ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%; }
+  .ui-slider-vertical .ui-slider-range-min {
+    bottom: 0; }
+  .ui-slider-vertical .ui-slider-range-max {
+    top: 0; }
+    
+.search_signup #mode_notice,
+    #dealers-associate-adwords #mode_notice {
+      margin-bottom: 20px; }
+      .search_signup #mode_notice h2,
+      #dealers-associate-adwords #mode_notice h2 {
+        font-size: 1.4em;
+        font-weight: bold; }
+
+    .search_signup .instructions {
+      width: 23%;
+      padding-right: 3%;
+      float: left; }
+    .search_signup .set_radius {
+      width: 44%;
+      float: left;
+      background: url(images/slider_bg.png) no-repeat 34px 65px; }
+      .search_signup .set_radius #slider {
+        margin-top: 215px;
+        padding-bottom: 70px;
+        width: 346px;
+        border: none;
+        background: none;
+        border-top: none; }
+        .search_signup .set_radius #slider a {
+          padding-right: 47px;
+          width: 80px;
+          padding-top: 15px;
+          height: 62px;
+          top: -15px;
+          cursor: pointer;
+          text-decoration: none;
+          display: block;
+          text-align: center;
+          line-height: 58px;
+          color: #222342;
+          font-size: 40px;
+          background: url(images/scrubber.png) no-repeat;
+          border: none;
+          font-family: Helvetica Neue, Arial, Helvetica, sans-serif; }
+    .search_signup .price_summary {
+      width: 25%;
+      margin-left: 1%;
+      padding: 10px;
+      background-color: #eeeded;
+      float: left; }
+      .search_signup .price_summary #price {
+        font-size: 42px;
+        padding: 15px 0px 15px 10px;
+        font-weight: bold;
+        color: white;
+        text-align: right;
+        line-height: 42px; }
+        .search_signup .price_summary #price span.dollar_sign {
+          font-weight: normal;
+          font-size: 20px;
+          position: ;
+          top: -10px;
+          left: -1px; }
+        .search_signup .price_summary #price .price .prices {
+          color:#414141;
+          float: ;
+          position: relative;
+          padding: 0 10px;
+          margin-right: 10px; }
+        .search_signup .price_summary #price .price.no_reimbursement .prices {
+          background-image: url(/images/square_3x3_ccc.png);
+          background-repeat: repeat-x;
+          background-position: 60px 50%; }
+        .search_signup .price_summary #price .per_day {
+          font-size: 15px;
+          line-height: 15px;
+          margin-right: 30px; }
+      .search_signup .price_summary div.button {
+        width:200px;
+        background:#ddd;
+      }
+      .search_signup .price_summary div.button a {
+        width: 80%;
+        text-align: center;
+        margin-top: 10px;
+        height: 30px;
+        font-size: 22px;
+        line-height: 30px;
+        margin-left: 10px;
+        margin-right: 10px; }

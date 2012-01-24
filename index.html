@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    
+    <title>Pricing Page Sandbox</title>
+    
+    <link href="http://dealerignition.com/stylesheets/layout.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="css/ui.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/base/jquery.ui.all.css">
+  
+    <link rel="stylesheet" href="css/base/jquery.ui.core.css">
+    <link rel="stylesheet" href="css/base/jquery.ui.button.css">
+    <link rel="stylesheet" href="css/base/jquery.ui.slider.css">
+    <link rel="stylesheet" href="css/base/jquery.ui.theme.css">
+      <script src="js/jquery-1.6.2.min.js"></script>
+    	<script src="js/jquery.ui.core.js"></script>
+    	<script src="js/jquery.ui.widget.js"></script>
+    	<script src="js/jquery.ui.mouse.js"></script>
+    	<script src="js/jquery.ui.slider.js"></script>
+    	<script src="js/jquery.ui.button.js"></script>
+    <link rel="stylesheet" href="css/demos">
+
+  	  <script src="js/working.js"></script>
+
+</head>
+  
+<body class='' id='dealer-search-signup-index'>
+    <div id='root'>
+      <div id="selection">
+        <form>
+        <!-- Slider -->
+        <h3>How many Dealers do you have?</h3>
+        <table width="700">
+          <tr>
+            <td>                  
+              <div class="demo">
+                <div id="slider-range-min"></div>
+                <br />
+              	<input type="text" id="amount" style="border:0; color:#b22b27; font-weight:bold; font-size:20px; background:none" />
+              </div><!-- End demo -->
+            </td>
+          </tr>
+        </table>
+      
+<hr noshade size=1 color=#d1d1d1 />
+        
+<!-- Plans -->
+        <h3>Choose your plan</h3>
+        <br />
+        <div id="radio">
+        		<input type="radio" id="radio1" name="radio" value="match" />
+        		<label for="radio1" class="plan">
+        		  <div id="label_heads">
+        		  <h2>Match</h2>
+        		  <div class='prices'><h3>$<span id='match_plan'>7.00</span></h3></div>
+        		  <p>/month /dealer</p>
+        		  </div>
+        		  <ul>
+        		    <li>Email</li>
+        		    <li>Facebook</li>
+        		  </ul>
+        		</label>
+        		<input type="radio" id="radio2" name="radio" checked="checked" />
+        		<label for="radio2" class="plan">
+        		  <div id="label_heads">
+        		  <h2>Lighter</h2>
+        		  <div class='prices'><h3>$<span id='lighter_plan'>10.00</span></h3></div>
+        		  <p>/month /dealer</p>
+        		  </div>
+        		  <ul>
+        		    <li>Email</li>
+        		    <li>Facebook</li>
+        		    <li>Banner Ads</li>
+        		    <li>Web Catalog</li>
+        		  </ul>
+        		</label>
+        		<input type="radio" id="radio3" name="radio" />
+        		<label for="radio3" class="plan">
+        		  <div id="label_heads">
+        		  <h2>Flamethrower</h2>
+        		  <div class='prices'><h3>$<span id='flamethrower_plan'>18.00</span></h3></div>
+        		  <p>/month /dealer</p>
+        		  </div>
+        		  <ul>
+        		    <li>Email</li>
+        		    <li>Facebook</li>
+        		    <li>Banner Ads</li>
+        		    <li>Web Catalog</li>
+        		    <li>Analytics</li>
+        		    <li>iPad App</li>
+        		    <li>Landing Pages<li>
+        		  </ul>
+        		</label>
+        		<input type="radio" id="radio4" name="radio" />
+        		<label for="radio4" class="plan">
+        		  <div id="label_heads">
+        		  <h2>Blowtorch</h2>
+        		  <h3>(call us)</h3>
+        		  <p>&nbsp;</p>
+        		  </div>
+        		  <ul>
+        		    <li>Email</li>
+        		    <li>Facebook</li>
+        		    <li>Banner Ads</li>
+        		    <li>Web Catalog</li>
+        		    <li>Analytics</li>
+        		    <li>iPad App</li>
+        		    <li>Landing Pages<li>
+        		    <li>Co-op AdWords</li>
+        		    <li>Local Ignite</li>
+        		  </ul>
+        		</label>
+        		<br />
+        		<br />
+        </div>
+
+<hr noshade size=1 color=#d1d1d1 />
+
+<!-- Features -->
+<script>
+$(function() {
+	$( "#check" ).button();
+	$( "#format" ).buttonset();
+});
+</script>
+            <h3>Extra features</h3>
+            <table width="700">
+              <tr>
+                <td valign="top">
+                    <input type="checkbox" id="check1" value="" /><label for="check1" class="options">Creative Services</label><br /><br />
+                    <input type="checkbox" id="check2" value="" /><label for="check2" class="options">Recruitment Team</label>
+                </td>
+                <td valign="top">
+                    <input type="checkbox" id="check3" value="" /><label for="check3" class="options">Creative Services</label><br /><br />
+                    <input type="checkbox" id="check4" value="" /><label for="check4" class="options">Recruitment Team</label>
+                </td>
+                <td valign="top">
+                    <input type="checkbox" id="check5" value="" /><label for="check5" class="options">Creative Services</label><br /><br />
+                    <input type="checkbox" id="check6" value="" /><label for="check6" class="options">Recruitment Team</label>
+                </td>
+                <td valign="top">
+                    <input type="checkbox" id="check7" value="" /><label for="check7" class="options">Creative Services</label><br /><br />
+                    <input type="checkbox" id="check8" value="" /><label for="check8" class="options">Recruitment Team</label>
+                </td>
+              </tr>
+            </table>
+        </form>
+      </div>      
+      <div id="calculated_pricing">
+        <h3>SUMMARY:</h3>
+            <div class="prices">
+              <h3><span id="search_price">300</span></h3>
+              <h3><span id="match_plan_name">name</span></h3>
+            </div>
+      </div>
+    <div class='cleaner' style="clear:left">&nbsp;</div>    
+    </div>
+  </body>
+</html>
